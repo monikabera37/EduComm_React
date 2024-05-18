@@ -7,11 +7,14 @@ import Programs from "./components/Programs/Programs";
 function App() {
   return (
     <div className="App">
-    <Navbar />
-    <Hero />
-    <Programs />
+      <Navbar />
+      <Hero />
+      <div className="container">
+        <Programs />
+      </div>
 
-      
+
+
     </div>
   );
 }
